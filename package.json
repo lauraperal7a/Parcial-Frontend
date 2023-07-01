@@ -15,6 +15,7 @@
     "coverage": "jest --env=jsdom --coverage --runInBand --detectOpenHandles --forceExit "
   },
   "dependencies": {
+    "@astrojs/vercel": "^3.5.1",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@hookform/resolvers": "^2.9.8",
@@ -23,6 +24,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "astro": "^2.7.2",
     "jest": "^29.0.2",
     "jest-environment-jsdom": "^29.0.2",
     "md5": "^2.3.0",
